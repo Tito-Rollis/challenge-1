@@ -1,0 +1,27 @@
+html body {
+    background-color: #00000029;
+}
+
+.card a {
+    text-decoration: none;
+    color: #00b0b0;
+}
+
+.card h5 {
+    font-weight: 500;
+    color: #494949;
+}
+
+.card h6 {
+    font-size: .9rem;
+    color: #00000052;
+}
+
+.card p {
+    margin-top: 7%;
+    color: #000000c9;
+}
+
+.special {
+    height: 55vh;
+}
