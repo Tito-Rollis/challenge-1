@@ -1,102 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container-fluid d-flex justify-content-around mt-4">
-          <div class="card" style="width: 18rem; height:65vh;">
-            <img src="assets/img/pic 1.jpg" class="card-img-top img-responsive">
-            <div class="card-body">
-              <h5 class="card-title">Top Summer Locations</h5>
-              <h6 class="card-subtitle">More than 200 locations</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, sequi.</p>
-              <div class="d-flex justify-content-between">
-                <div style="width:300px;">
-                    <a href="#">SHARE</a>
-                    <a href="#" style="margin-left: 5%;">EXPLORE</a>
-                </div>
-                <!-- popup trigger -->
-                <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#info"><img src="assets/img/arrow-down.png" class="d-block my-auto" width="15px"></a>
-                <!-- popup -->
-                <div class="modal fade" id="info">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <img src="assets/img/pic 1.jpg" style="max-width:450px" class="img-responsive">
-                            </div>
-                            <div class="modal-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquam aliquid quia culpa rerum repudiandae veniam dolor mollitia hic sequi.</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <title>Challenge 1</title>
+    </head>
+    <body>
+        <div
+            class="
+                container-fluid
+                d-flex
+                flex-row flex-wrap
+                justify-content-around
+                mt-4
+                gap-3
+                pb-4
+            "
+        >
+            <div class="card" style="width: 18rem; height: 65vh">
+                <img
+                    src="assets/img/pic 1.jpg"
+                    class="card-img-top img-responsive"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Top Summer Locations</h5>
+                    <h6 class="card-subtitle">More than 200 locations</h6>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Hic, sequi.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                        <div style="width: 300px">
+                            <a href="#">SHARE</a>
+                            <a href="#" style="margin-left: 5%">EXPLORE</a>
+                        </div>
+                        <!-- popup trigger -->
+                        <a
+                            href="#"
+                            class="btn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#info"
+                            ><img
+                                src="assets/img/arrow-down.png"
+                                class="d-block my-auto"
+                                width="15px"
+                        /></a>
+                        <!-- popup -->
+                        <div class="modal fade" id="info">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img
+                                            src="assets/img/pic 1.jpg"
+                                            style="max-width: 450px"
+                                            class="img-responsive"
+                                        />
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit.
+                                            Molestiae aliquam aliquid quia culpa
+                                            rerum repudiandae veniam dolor
+                                            mollitia hic sequi.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-              </div>
             </div>
-          </div>
-          
-          <div class="card special" style="width: 18rem; height:54vh;">
-            <img src="assets/img/pic 2.jpg" class="card-img-top img-responsive">
-            <div class="card-body">
-              <h5 class="card-title">Top Eastern Road Trips</h5>
-              <h6 class="card-subtitle mb-4">2.000 miles of wonder</h6>
-              <div class="d-flex justify-content-between">
-                <div style="width:300px;">
-                    <a href="#">SHARE</a>
-                    <a href="#" style="margin-left: 5%;">EXPLORE</a>
-                </div>
-                <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#info2"><img src="assets/img/arrow-down.png" class="d-block my-auto" width="15px"></a>
-                <!-- popup -->
-                <div class="modal fade" id="info2">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <img src="assets/img/pic 2.jpg" style="max-width:450px" class="img-responsive">
-                            </div>
-                            <div class="modal-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquam aliquid quia culpa rerum repudiandae veniam dolor mollitia hic sequi.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <div class="row p-1">
-                <div class="col-3 d-flex">
-                    <img src="assets/img/girl.jfif" class="img-responsive rounded-circle d-block my-auto" width="50px">
-                </div>
-                <div class="col-6" style="padding-left: 0;">
-                    <p style="margin-bottom: 0; font-weight: 500;">Christy</p>
-                    <p class="text-muted" style="margin-top:-3px; font-size: 0.9rem;">20 mins. ago</p>
-                </div>
-            </div>
-            <img src="assets/img/pic 3.jpg" class="card-img-top img-responsive">
-            <div class="card-body">
-              <h5 class="card-title">Kangaroo Valley Safari</h5>
-              <h6 class="card-subtitle">Free on Thursday</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, sequi.</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem; height:43vh;">
-            <img src="assets/img/pic 4.jpg" class="card-img-top img-responsive">
-            <div class="card-body d-flex justify-content-end">
-                <div class="d-flex justify-content-around" style="width: 80px; margin-right: 3%;">
-                    <img src="assets/img/heart.png" class="d-block my-auto" width="20px">
-                    <img src="assets/img/target.png" class="d-block my-auto" width="20px">
-                    <img src="assets/img/bookmark.png" class="d-block my-auto" width="20px">
-                </div>
-            </div>
-          </div>
-    </div>
-    
 
-    <script src="assets/js/bootstrap.min.js"></script>
-</body>
+            <div class="card special" style="width: 18rem; height: 54vh">
+                <img
+                    src="assets/img/pic 2.jpg"
+                    class="card-img-top img-responsive"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Top Eastern Road Trips</h5>
+                    <h6 class="card-subtitle mb-4">2.000 miles of wonder</h6>
+                    <div class="d-flex justify-content-between">
+                        <div style="width: 300px">
+                            <a href="#">SHARE</a>
+                            <a href="#" style="margin-left: 5%">EXPLORE</a>
+                        </div>
+                        <a
+                            href="#"
+                            class="btn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#info2"
+                            ><img
+                                src="assets/img/arrow-down.png"
+                                class="d-block my-auto"
+                                width="15px"
+                        /></a>
+                        <!-- popup -->
+                        <div class="modal fade" id="info2">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img
+                                            src="assets/img/pic 2.jpg"
+                                            style="max-width: 450px"
+                                            class="img-responsive"
+                                        />
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit.
+                                            Molestiae aliquam aliquid quia culpa
+                                            rerum repudiandae veniam dolor
+                                            mollitia hic sequi.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem">
+                <div class="row p-1">
+                    <div class="col-3 d-flex">
+                        <img
+                            src="assets/img/girl.jfif"
+                            class="
+                                img-responsive
+                                rounded-circle
+                                d-block
+                                my-auto
+                            "
+                            width="50px"
+                        />
+                    </div>
+                    <div class="col-6" style="padding-left: 0">
+                        <p style="margin-bottom: 0; font-weight: 500">
+                            Christy
+                        </p>
+                        <p
+                            class="text-muted"
+                            style="margin-top: -3px; font-size: 0.9rem"
+                        >
+                            20 mins. ago
+                        </p>
+                    </div>
+                </div>
+                <img
+                    src="assets/img/pic 3.jpg"
+                    class="card-img-top img-responsive"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Kangaroo Valley Safari</h5>
+                    <h6 class="card-subtitle">Free on Thursday</h6>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Hic, sequi.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; height: 43vh">
+                <img
+                    src="assets/img/pic 4.jpg"
+                    class="card-img-top img-responsive"
+                />
+                <div class="card-body d-flex justify-content-end">
+                    <div
+                        class="d-flex justify-content-around"
+                        style="width: 80px; margin-right: 3%"
+                    >
+                        <img
+                            src="assets/img/heart.png"
+                            class="d-block my-auto"
+                            width="20px"
+                        />
+                        <img
+                            src="assets/img/target.png"
+                            class="d-block my-auto"
+                            width="20px"
+                        />
+                        <img
+                            src="assets/img/bookmark.png"
+                            class="d-block my-auto"
+                            width="20px"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/bootstrap.min.js"></script>
+    </body>
 </html>
